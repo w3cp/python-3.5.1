@@ -1,4 +1,4 @@
-def my_function ():
+def my_function():
     """Do nothing, but document it.
     
     No, really, it doesn't do anything.
