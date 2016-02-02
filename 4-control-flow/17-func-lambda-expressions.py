@@ -16,7 +16,7 @@ f(1)
 # The above example uses a lambda expression to return a function.
 # Another use is to pass a small function as an argument:
 
-pairs = [( 1 , 'one' ), ( 2, 'two' ), ( 3, 'three' ), ( 4, 'four' )]
-pairs.sort(key = lambda pair: pair[ 1 ])
+pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
+pairs.sort(key = lambda pair: pair[1])
 pairs
 

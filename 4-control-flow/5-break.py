@@ -1,11 +1,11 @@
-for n in range (2 , 10 ):
-    for x in range (2 , n):
+for n in range (2, 10):
+    for x in range (2, n):
         if n % x == 0:
-            print(n, 'equals' , x, '*' , n // x)
+            print(n, 'equals', x, '*', n // x)
             break
     else:
         # loop fell through without finding a factor
-        print(n, 'is a prime number' )
+        print(n, 'is a prime number')
 
 # (Yes, this is the correct code. Look closely: the else clause 
 # belongs to the for loop, not the if statement.)

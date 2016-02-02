@@ -9,5 +9,5 @@ def fib2(n): # return Fibonacci series up to n
         a, b = b, a + b
     return result
 
-f100 = fib2( 100 ) # call it
+f100 = fib2(100) # call it
 f100 # write the result

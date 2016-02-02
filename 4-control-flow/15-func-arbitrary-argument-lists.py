@@ -14,9 +14,9 @@
 # meaning that they can only be used as keywords rather than
 # positional arguments.
 
-def concat( *args, sep = "/" ):
+def concat(*args, sep = "/"):
     return sep.join(args)
 
-concat( "earth" , "mars" , "venus" )
-concat( "earth" , "mars" , "venus" , sep ="." )
+concat("earth", "mars", "venus")
+concat("earth", "mars", "venus", sep =".")
 
