@@ -16,7 +16,7 @@ f()
 # a list, dictionary, or instances of most classes. For example, the
 # following function accumulates the arguments passed to it on subsequent calls:
 
-def f(a, L =[]):
+def f(a, L = []):
     L.append(a)
     return L
 

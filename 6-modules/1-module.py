@@ -1,6 +1,6 @@
 # fibo.py on 'x' dir
 # cd to 'x' dir first
-# ctrl+z 
+# ctrl+z OR exit() OR exit(1) 
 # cd /*/x/
 # python
 

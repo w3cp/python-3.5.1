@@ -21,7 +21,7 @@ def cheeseshop(kind, *arguments, **keywords):
 
 cheeseshop("Limburger" , "It's very runny, sir.",
            "It's really very, VERY runny, sir.",
-           shopkeeper= "Michael Palin" ,
+           shopkeeper = "Michael Palin" ,
            client = "John Cleese",
            sketch = "Cheese Shop Sketch")
 

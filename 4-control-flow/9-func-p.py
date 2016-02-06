@@ -30,5 +30,5 @@ f(100)
 # you really want to using print() :
 
 fib(0)
-print (fib(0))
+print(fib(0))
 

@@ -1,6 +1,6 @@
 A strange thing happens if you just print a range:
 
->>> print ( range( 10))
+>>> print(range(10))
 range(0, 10)
 
 In many ways the object returned by range() behaves as if it is a list, but in fact it isn’t. It is an
@@ -12,7 +12,7 @@ something from which they can obtain successive items until the supply is exhaus
 that the for statement is such an iterator. The function list() is another; it creates lists from
 iterables:
 
->>> list (range (5 ))
+>>> list(range(5))
 [0, 1, 2, 3, 4]
 
 Later we will see more functions that return iterables and take iterables as argument.
